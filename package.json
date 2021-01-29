@@ -1,5 +1,5 @@
 {
-  "name": "vue-template",
+  "name": "<%=appName%>",
   "private": "true",
   "version": "<%=appVersion%>",
   "author": "<%=author%>",
