@@ -8,6 +8,11 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
+<% if(feature.includes('i18n')) { %>
+   console.log('i18n已引入');
+<% } %>
+
+
 export default {
   name: 'app',
   components: {
